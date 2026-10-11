@@ -55,7 +55,7 @@ Gradio provides a chat interface for interacting with the assistant.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone (https://github.com/janagoharyy/Agentic-Rag-Assistant)
 cd smolagents-agentic-rag-assistant
 ```
 
