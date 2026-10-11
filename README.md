@@ -14,6 +14,15 @@ The assistant can:
 - Search the web for external information.
 - Answer questions through an interactive Gradio chat interface.
 
+## Demo
+<img width="1902" height="992" alt="image" src="https://github.com/user-attachments/assets/2c536bf7-c77a-4ad3-93df-61b01e89e2b0" />
+Demonstrates the agent using its web search tool to answer both general knowledge and technical questions, from identifying Japan’s capital to explaining the differences between TCP and UDP.
+<img width="1907" height="970" alt="Screenshot 2026-10-12 002259" src="https://github.com/user-attachments/assets/984bc680-6c83-4e87-81ba-949f5a06937b" />
+Demonstrates the agent's use of the custom LocalKnowledgeTool to retrieve relevant information from local PDF documents through the RAG pipeline, based on its tool selection.
+
+
+  
+
 ## How It Works
 
 The application uses two main information sources:
