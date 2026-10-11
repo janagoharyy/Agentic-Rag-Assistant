@@ -1,5 +1,8 @@
-# Agentic-Rag-Assistant
-An agentic RAG assistant built with smolagents, combining local PDF retrieval and web search with an interactive Gradio interface. A hands-on project exploring AI agents and RAG.
+# Agentic RAG Assistant
+
+A tool-calling AI agent built with smolagents that combines local PDF retrieval through Retrieval-Augmented Generation (RAG) with web search. The project uses a custom retrieval tool, ChromaDB for vector storage, Ollama for local embeddings, and Gradio for an interactive chat interface.
+
+This is an ongoing hands-on project focused on exploring AI agents, tool integration, and RAG.
 
 ## Overview
 
@@ -36,6 +39,7 @@ Gradio provides a chat interface for interacting with the assistant.
 - **Python**
 - **smolagents** — agent and tool orchestration
 - **Groq API** — LLM inference
+- **Model Id**-qwen/qwen3.8-27b
 - **Ollama (`nomic-embed-text`)** — text embeddings
 - **ChromaDB** — vector storage and semantic retrieval
 - **PyPDF** — PDF text extraction
@@ -55,8 +59,8 @@ Gradio provides a chat interface for interacting with the assistant.
 ### 1. Clone the repository
 
 ```bash
-git clone (https://github.com/janagoharyy/Agentic-Rag-Assistant)
-cd smolagents-agentic-rag-assistant
+git clone https://github.com/janagoharyy/Agentic-Rag-Assistant.git
+cd Agentic-Rag-Assistant
 ```
 
 ### 2. Create and activate a virtual environment
@@ -97,11 +101,8 @@ GROQ_API_KEY=your_groq_api_key
 
 Replace the placeholder with your own API key. **Never commit your `.env` file or publish your API key.**
 
-### 6. Add PDF documents
 
-Place the PDF files you want to query inside the `documents/` directory.
-
-### 7. Run the application
+### 8. Run the application
 
 ```bash
 python app.py
