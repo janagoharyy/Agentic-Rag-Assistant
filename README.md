@@ -1,5 +1,5 @@
 # Agentic-Rag-Assistant
-An agentic RAG assistant built with smolagents, combining local PDF retrieval and web search with an interactive Gradio interface.
+An agentic RAG assistant built with smolagents, combining local PDF retrieval and web search with an interactive Gradio interface. A hands-on project exploring AI agents and RAG.
 
 ## Overview
 
