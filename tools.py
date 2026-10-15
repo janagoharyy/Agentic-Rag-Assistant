@@ -1,6 +1,5 @@
 from smolagents import Tool
-from retrieval import semantic_search
-
+from Llamaindexrag import search_documents
 #creating a LocalKnowledgeTool that inherets from "Tool" which is provided by smolagents framework
 class LocalKnowledgeTool(Tool):
  name="local_knowledge_tool"
@@ -19,7 +18,7 @@ class LocalKnowledgeTool(Tool):
  } 
  output_type="string"
  def forward(self, query):
-        results = semantic_search(query)
+        results = search_documents(query)
 
         return "\n\n".join(results)
   
